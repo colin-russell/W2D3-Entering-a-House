@@ -16,7 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    UIBarButtonItem *backTotheStart = [[UIBarButtonItem alloc] initWithTitle:@"Back to Start" style:UIBarButtonItemStylePlain target:self action:@selector(goBackToStart)];
+    
+    self.navigationItem.rightBarButtonItem = backTotheStart;
+    
 }
 
 
@@ -24,6 +28,12 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (void)goBackToStart {
+    //ViewController *newView = [ViewController alloc];
+    [self.navigationController popToRootViewControllerAnimated:YES];
+}
+
 
 
 @end

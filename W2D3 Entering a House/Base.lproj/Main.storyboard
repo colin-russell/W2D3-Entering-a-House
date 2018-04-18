@@ -14,7 +14,7 @@
         <!--Doorway-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" userLabel="Doorway" customClass="ViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="start" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" userLabel="Doorway" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -453,29 +453,10 @@
                                     <constraint firstAttribute="width" secondItem="NGv-ME-zb1" secondAttribute="height" multiplier="1:1" id="jUM-H6-FF1"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZoO-1W-Vfa">
-                                <rect key="frame" x="144" y="525" width="87" height="30"/>
-                                <state key="normal" title="Dining Room"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B8N-eT-cwq">
-                                <rect key="frame" x="163" y="458" width="48" height="30"/>
-                                <state key="normal" title="Library"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GX2-je-GbG">
-                                <rect key="frame" x="156" y="591" width="63" height="30"/>
-                                <state key="normal" title="Stairs Up"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="NGv-ME-zb1" firstAttribute="centerX" secondItem="VFc-3E-bQM" secondAttribute="centerX" id="J5B-3j-BzC"/>
-                            <constraint firstItem="ZoO-1W-Vfa" firstAttribute="top" secondItem="B8N-eT-cwq" secondAttribute="bottom" constant="37" id="V3R-pm-Fkm"/>
-                            <constraint firstItem="GX2-je-GbG" firstAttribute="top" secondItem="ZoO-1W-Vfa" secondAttribute="bottom" constant="36" id="cof-Ob-laX"/>
-                            <constraint firstItem="GX2-je-GbG" firstAttribute="centerX" secondItem="VFc-3E-bQM" secondAttribute="centerX" id="g3q-XA-IUx"/>
-                            <constraint firstItem="B8N-eT-cwq" firstAttribute="top" secondItem="NGv-ME-zb1" secondAttribute="bottom" constant="19" id="hFx-Ju-V7i"/>
-                            <constraint firstItem="B8N-eT-cwq" firstAttribute="centerX" secondItem="VFc-3E-bQM" secondAttribute="centerX" id="hTa-TG-VVH"/>
-                            <constraint firstItem="VFc-3E-bQM" firstAttribute="bottom" secondItem="GX2-je-GbG" secondAttribute="bottom" constant="46" id="na3-VA-HI8"/>
-                            <constraint firstItem="ZoO-1W-Vfa" firstAttribute="centerX" secondItem="VFc-3E-bQM" secondAttribute="centerX" id="rUR-S5-2Eg"/>
                             <constraint firstItem="NGv-ME-zb1" firstAttribute="top" secondItem="VFc-3E-bQM" secondAttribute="top" id="xcj-MW-wpZ"/>
                             <constraint firstItem="NGv-ME-zb1" firstAttribute="width" secondItem="eK3-i1-T7y" secondAttribute="width" id="ygb-Ng-IuH"/>
                         </constraints>
@@ -501,31 +482,12 @@
                                     <constraint firstAttribute="width" secondItem="89x-cu-p1v" secondAttribute="height" multiplier="1:1" id="nL5-xc-qAb"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cvq-gU-5Me">
-                                <rect key="frame" x="144" y="525" width="87" height="30"/>
-                                <state key="normal" title="Dining Room"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mep-Sj-1eA">
-                                <rect key="frame" x="163" y="458" width="48" height="30"/>
-                                <state key="normal" title="Library"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uWF-Px-T5k">
-                                <rect key="frame" x="156" y="591" width="63" height="30"/>
-                                <state key="normal" title="Stairs Up"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="uWF-Px-T5k" firstAttribute="top" secondItem="Cvq-gU-5Me" secondAttribute="bottom" constant="36" id="Iug-uE-ilb"/>
-                            <constraint firstItem="Mep-Sj-1eA" firstAttribute="top" secondItem="89x-cu-p1v" secondAttribute="bottom" constant="19" id="JrG-ly-uHV"/>
-                            <constraint firstItem="Mep-Sj-1eA" firstAttribute="centerX" secondItem="7zZ-lm-SbD" secondAttribute="centerX" id="Nki-TA-3hQ"/>
                             <constraint firstItem="89x-cu-p1v" firstAttribute="width" secondItem="xe9-uj-F2t" secondAttribute="width" id="T2E-m0-dSD"/>
                             <constraint firstItem="89x-cu-p1v" firstAttribute="centerX" secondItem="7zZ-lm-SbD" secondAttribute="centerX" id="Tdq-Eg-w8m"/>
-                            <constraint firstItem="7zZ-lm-SbD" firstAttribute="bottom" secondItem="uWF-Px-T5k" secondAttribute="bottom" constant="46" id="X5X-Gp-Ete"/>
                             <constraint firstItem="89x-cu-p1v" firstAttribute="top" secondItem="7zZ-lm-SbD" secondAttribute="top" id="nli-k4-MQA"/>
-                            <constraint firstItem="uWF-Px-T5k" firstAttribute="centerX" secondItem="7zZ-lm-SbD" secondAttribute="centerX" id="sUR-41-rO7"/>
-                            <constraint firstItem="Cvq-gU-5Me" firstAttribute="top" secondItem="Mep-Sj-1eA" secondAttribute="bottom" constant="37" id="xO7-zL-tGb"/>
-                            <constraint firstItem="Cvq-gU-5Me" firstAttribute="centerX" secondItem="7zZ-lm-SbD" secondAttribute="centerX" id="xlb-VJ-qzf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7zZ-lm-SbD"/>
                     </view>
@@ -616,31 +578,12 @@
                                     <constraint firstAttribute="width" secondItem="CwN-ZL-5c9" secondAttribute="height" multiplier="1:1" id="Qpd-nb-CN2"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ok-h5-mNh">
-                                <rect key="frame" x="144" y="525" width="87" height="30"/>
-                                <state key="normal" title="Dining Room"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SwO-4u-Q6k">
-                                <rect key="frame" x="163" y="458" width="48" height="30"/>
-                                <state key="normal" title="Library"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q17-L1-umy">
-                                <rect key="frame" x="156" y="591" width="63" height="30"/>
-                                <state key="normal" title="Stairs Up"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="8ok-h5-mNh" firstAttribute="centerX" secondItem="SQz-Qa-hj0" secondAttribute="centerX" id="2DV-pg-ogC"/>
-                            <constraint firstItem="Q17-L1-umy" firstAttribute="centerX" secondItem="SQz-Qa-hj0" secondAttribute="centerX" id="2mi-Ac-tHt"/>
-                            <constraint firstItem="Q17-L1-umy" firstAttribute="top" secondItem="8ok-h5-mNh" secondAttribute="bottom" constant="36" id="8sC-fy-RE3"/>
-                            <constraint firstItem="8ok-h5-mNh" firstAttribute="top" secondItem="SwO-4u-Q6k" secondAttribute="bottom" constant="37" id="CWO-rZ-Ydw"/>
-                            <constraint firstItem="SwO-4u-Q6k" firstAttribute="centerX" secondItem="SQz-Qa-hj0" secondAttribute="centerX" id="ReR-1S-I6k"/>
                             <constraint firstItem="CwN-ZL-5c9" firstAttribute="centerX" secondItem="SQz-Qa-hj0" secondAttribute="centerX" id="ULw-QU-01m"/>
                             <constraint firstItem="CwN-ZL-5c9" firstAttribute="top" secondItem="SQz-Qa-hj0" secondAttribute="top" id="Y7M-W6-vGF"/>
-                            <constraint firstItem="SwO-4u-Q6k" firstAttribute="top" secondItem="CwN-ZL-5c9" secondAttribute="bottom" constant="19" id="hKi-WI-zbs"/>
                             <constraint firstItem="CwN-ZL-5c9" firstAttribute="width" secondItem="ez1-wL-Zj5" secondAttribute="width" id="pdZ-SR-jRf"/>
-                            <constraint firstItem="SQz-Qa-hj0" firstAttribute="bottom" secondItem="Q17-L1-umy" secondAttribute="bottom" constant="46" id="y83-Ea-mH5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="SQz-Qa-hj0"/>
                     </view>
